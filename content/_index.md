@@ -5,9 +5,9 @@ header_button_cta:
   url: "#contact-form"
   title: Get in touch
 header_button_more:
-  url: "#the-future---today"
-  title: Why this is awesome?
-teaser_image: images/teaser.jpg
+  url: "#monitor-models-in-production"
+  title: Why?
+teaser_image: ''
 
 ---
 # Monitor models in production
