@@ -30,9 +30,9 @@ Building a great ML service is difficult. Managing it in production is doubly so
 
 MetricRule works with your model serving stack to automatically create metrics for your services' inputs and outputs, so you can track and get alerted on bad model deployments, feature drifts, or unexpected data.
 
-#### Why do you need granular monitoring? 
+#### Why do you need granular monitoring?
 
-* Poor quality model outputs are not diagnosed as system errors but have user experience and revenue [impact](https://www.washingtonpost.com/technology/2019/07/18/uber-glitch-charges-passengers-times-normal-price-resulting-crosstown-fares-thousands-dollars/) 
+* Poor quality model outputs are not diagnosed as system errors but have user experience and [revenue impact](https://www.washingtonpost.com/technology/2019/07/18/uber-glitch-charges-passengers-times-normal-price-resulting-crosstown-fares-thousands-dollars/)
 * Poor model performance can be restricted to specific [slices](https://www.snorkel.org/blog/slicing) of inputs and outputs which are not apparent on global views
 * Shifts in user behavior in response to [external](https://www.technologyreview.com/2020/05/11/1001563/covid-pandemic-broken-ai-machine-learning-amazon-retail-fraud-humans-in-the-loop/) [events](https://fortune.com/2020/06/09/instacart-coronavirus-artificial-intelligence/) or internal product [changes](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) can affect model outcomes
 
