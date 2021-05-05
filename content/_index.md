@@ -17,6 +17,12 @@ Building a great ML service is difficult. Managing it in production is doubly so
 
 MetricRule works with your model serving stack to automatically create metrics for your services' inputs and outputs, so you can track and get alerted on bad model deployments, feature drifts, or unexpected data.
 
+## Demo
+
+Interact with a live demo of a dashboard powered by MetricRule metrics [here](http://bit.ly/petfinder-dash).
+
+This demo runs MetricRule against an [example model](https://www.tensorflow.org/tutorials/structured_data/preprocessing_layers) to predict whether a pet will be adopted or not, trained on the [PetFinder dataset](https://www.kaggle.com/c/petfinder-adoption-prediction), with simulated production traffic.
+
 ### Features
 
 - Agents to create feature metrics on your deployed ML models. Get real-time data on what production features and predictions look like.
@@ -28,20 +34,23 @@ MetricRule works with your model serving stack to automatically create metrics f
 
 ***
 
-Interested to know more or have feedback or feature requests? Get in touch with us here:
+Interested to know more? Have feedback or feature requests? Get in touch with us here:
 
 {{< contact_form id="contact-form" placeholder_name="Name" placeholder_email="Email Address" placeholder_message="Message" button_label="Send ✉️">}}
 
 ***
+
 ## Why granular monitoring of features?
 
-* Poor quality model outputs are not diagnosed as system errors but have user experience and [revenue impact](https://www.washingtonpost.com/technology/2019/07/18/uber-glitch-charges-passengers-times-normal-price-resulting-crosstown-fares-thousands-dollars/)
-* Poor model performance can be restricted to specific [slices](https://www.snorkel.org/blog/slicing) of inputs and outputs which are not apparent on global views
-* Shifts in user behavior in response to [external](https://www.technologyreview.com/2020/05/11/1001563/covid-pandemic-broken-ai-machine-learning-amazon-retail-fraud-humans-in-the-loop/) [events](https://fortune.com/2020/06/09/instacart-coronavirus-artificial-intelligence/) or internal product [changes](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) can affect model outcomes
+- Poor quality model outputs are not diagnosed as system errors but have user experience and [revenue impact](https://www.washingtonpost.com/technology/2019/07/18/uber-glitch-charges-passengers-times-normal-price-resulting-crosstown-fares-thousands-dollars/)
+
+- Poor model performance can be restricted to specific [slices](https://www.snorkel.org/blog/slicing) of inputs and outputs which are not apparent on global views
+
+- Shifts in user behavior in response to [external](https://www.technologyreview.com/2020/05/11/1001563/covid-pandemic-broken-ai-machine-learning-amazon-retail-fraud-humans-in-the-loop/) [events](https://fortune.com/2020/06/09/instacart-coronavirus-artificial-intelligence/) or internal product [changes](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) can affect model outcomes
 
 ***
 
-## Stay in touch
+## Interested in email updates?
 
 Sign up here to get very occasional updates from us. Don't worry, we hate spam too.
 
