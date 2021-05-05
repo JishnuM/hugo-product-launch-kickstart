@@ -2,15 +2,15 @@ baseURL = "https://metricrule.com"
 defaultContentLanguage = "en"
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT", "404"]
 theme = "hugo-product-launch"
-title = "MetricRule"
+title = "MetricRule - ML monitoring"
 [markup.goldmark.renderer]
 hardWraps = true
 [params]
 copyright = "© MetricRule"
-description = "ML model monitoring in production"
+description = "Open source ML model monitoring in production"
 favicon = "images/favicon.png"
 hidedesignbyline = false
 images = []
-title = "MetricRule Landing Page"
+title = "MetricRule - ML monitoring"
 [params.meta]
-keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
+keywords = "ml-monitoring, tensorflow, observability, real-time, open-source, production, deploy, serving"
