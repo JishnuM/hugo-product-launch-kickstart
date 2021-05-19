@@ -5,7 +5,7 @@ header_button_cta:
   url: "#contact-form"
   title: Get in touch
 header_button_more:
-  url: "https://github.com/MetricRule/metricrule-sidecar-tfserving"
+  url: "https://github.com/MetricRule/metricrule-agent-go"
   title: Code
 teaser_image: 'images/dynamic-input-outputs.gif'
 
@@ -26,7 +26,8 @@ This demo runs MetricRule against an [example model](https://www.tensorflow.org/
 ### Features
 
 - Agents to create feature metrics on your deployed ML models. Get real-time data on what production features and predictions look like.
-  - Available for [Tensorflow Serving](https://github.com/tensorflow/serving) today. FastAPI, Flask and more serving patterns on the roadmap.
+  - Available for [Tensorflow Serving](https://github.com/tensorflow/serving) and [KFServing](https://github.com/kubeflow/kfserving) today. 
+    - FastAPI, Flask and more serving patterns on the roadmap.
 
 - Pluggable into standard software observability tools (e.g Prometheus, Grafana).
 
