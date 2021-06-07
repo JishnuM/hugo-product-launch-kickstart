@@ -15,6 +15,10 @@ teaser_image: 'images/dynamic-input-outputs.gif'
 
 Building a great ML service is difficult. Managing it in production is doubly so.
 
+If your team is in the trenches using ML in production, take this
+[quiz](https://mltestscore.metricrule.), based on Google research, to measure
+how you are doing and get ideas for improvements.
+
 MetricRule works with your model serving stack to automatically create metrics for your services' inputs and outputs, so you can track and get alerted on bad model deployments, feature drifts, or unexpected data.
 
 ## Demo
