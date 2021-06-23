@@ -29,8 +29,7 @@ This demo runs MetricRule against an [example model](https://www.tensorflow.org/
 ### Features
 
 - Agents to create feature metrics on your deployed ML models. Get real-time data on what production features and predictions look like.
-  - Available for [Tensorflow Serving](https://github.com/tensorflow/serving) and [KFServing](https://github.com/kubeflow/kfserving) today. 
-    - FastAPI, Flask and more serving patterns on the roadmap.
+  - Works with [Tensorflow Serving](https://github.com/tensorflow/serving), [KFServing](https://github.com/kubeflow/kfserving), [FastAPI](https://fastapi.tiangolo.com/), [Flask](https://flask.palletsprojects.com/en/2.0.x/) and more.
 
 - Pluggable into standard software observability tools (e.g Prometheus, Grafana).
 
